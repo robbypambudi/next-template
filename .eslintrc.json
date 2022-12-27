@@ -16,7 +16,7 @@
   "rules": {
     "indent": "off",
     "no-console": "warn",
-    "no-unused-vars": "off",
+    "@typescript-eslint/no-unused-vars": "off",
     "simple-import-sort/imports": "error",
     "simple-import-sort/exports": "error",
     "unused-imports/no-unused-imports": "error",
