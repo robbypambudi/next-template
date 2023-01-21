@@ -15,7 +15,9 @@ export default function FormExample() {
     <Layout>
       <main>
         <section className='layout'>
-          <h1 className='text-3xl font-bold underline'>Example Of Form</h1>
+          <h1 className='text-3xl font-bold underline'>
+            Example Of Smart Form Components
+          </h1>
           <Form<FormValues> onSubmit={onSubmit} className='w-96'>
             {() => (
               <>
