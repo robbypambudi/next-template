@@ -1,13 +1,13 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   eslint: {
-    dirs: ["src"],
+    dirs: ['src'],
   },
 
   reactStrictMode: true,
   swcMinify: true,
 
-  pageExtensions: ["page.tsx", "api.ts"],
+  pageExtensions: ['page.tsx', 'api.ts'],
 };
 
 module.exports = nextConfig;

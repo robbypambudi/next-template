@@ -1,10 +1,10 @@
-import axios from "axios";
+import axios from 'axios';
 
 export const api = axios.create({
-  baseURL: "https://jsonplaceholder.typicode.com",
+  baseURL: 'https://jsonplaceholder.typicode.com',
   headers: {
-    "Content-Type": "application/json",
-    "Accept-Type": "application/json",
+    'Content-Type': 'application/json',
+    'Accept-Type': 'application/json',
   },
   withCredentials: false,
 });
@@ -12,9 +12,9 @@ export const api = axios.create({
 api.defaults.withCredentials = false;
 
 api.interceptors.request.use(function (config) {
-  const token = localStorage.getItem("token");
+  const token = localStorage.getItem('token');
   if (config.headers) {
-    config.headers.Authorization = token ? `Bearer ${token}` : "";
+    config.headers.Authorization = token ? `Bearer ${token}` : '';
   }
   return config;
 });

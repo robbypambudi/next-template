@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  .layout {
+    max-width: 68.75rem;
+    @apply mx-auto w-11/12;
+  }
+}

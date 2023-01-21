@@ -1,8 +1,8 @@
-import { createSelectorHooks } from "auto-zustand-selectors-hook";
-import produce from "immer";
-import create from "zustand";
+import { createSelectorHooks } from 'auto-zustand-selectors-hook';
+import produce from 'immer';
+import { create } from 'zustand';
 
-import { DialogOptions } from "@/components/dialog/BaseDialog";
+import { DialogOptions } from '@/components/dialog/BaseDialog';
 
 type DialogStoreType = {
   awaitingPromise: {
@@ -20,10 +20,10 @@ const useDialogStoreBase = create<DialogStoreType>((set) => ({
   awaitingPromise: {},
   open: false,
   state: {
-    title: "Title",
-    description: "Description",
-    submitText: "Yes",
-    variant: "warning",
+    title: 'Title',
+    description: 'Description',
+    submitText: 'Yes',
+    variant: 'warning',
     catchOnCancel: false,
   },
   dialog: (options) => {
