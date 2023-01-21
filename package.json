@@ -23,6 +23,7 @@
     "auto-zustand-selectors-hook": "^2.0.0",
     "axios": "^1.2.1",
     "clsx": "^1.2.1",
+    "cssnano": "^5.1.14",
     "eslint": "^8.30.0",
     "immer": "^9.0.16",
     "next": "13.1.1",
