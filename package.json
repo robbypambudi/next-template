@@ -31,11 +31,15 @@
     "nprogress": "^0.2.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-dropzone": "^14.2.3",
     "react-hook-form": "^7.42.1",
     "react-hot-toast": "^2.4.0",
     "react-icons": "^4.7.1",
+    "react-image-lightbox": "^5.1.4",
+    "swiper": "^9.1.0",
     "tailwind-merge": "^1.8.1",
     "typescript": "^4.9.4",
+    "universal-cookie": "^4.0.4",
     "zustand": "^4.1.5"
   },
   "devDependencies": {
